@@ -17,7 +17,7 @@ import java.nio.charset.StandardCharsets;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(originPatterns = { "http://localhost:*", "http://127.0.0.1:*" })
+@CrossOrigin(originPatterns = { "http://localhost:*", "http://127.0.0.1:*", "https://spring-genie-nuxt.vercel.app:*" })
 public class ProjectGeneratorController {
 
 	private final ProjectArchiveService projectArchiveService;
